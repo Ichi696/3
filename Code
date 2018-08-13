@@ -1,0 +1,10 @@
+def is_year_leap():
+    vis_god = False
+    print ("введите год")
+    a=input()
+    b=int(a)//4
+    c=int(a)/4
+    d=b-c
+    if float(d)==0:
+        vis_god=True
+        print ("Да, год високосный")
